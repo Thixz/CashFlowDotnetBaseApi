@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\pdf\\generateexpensesreportpdfusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\pdf\\generateexpensesreportpdfusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\excel\\generateexpensesreportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\excel\\generateexpensesreportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\excel\\igenerateexpensesreportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\excel\\igenerateexpensesreportexcelusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.domain\\extensions\\paymenttypeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\extensions\\paymenttypeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\enums\\paymenttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\pdf\\colors\\colorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\pdf\\colors\\colorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\pdf\\fonts\\expensesreportfontresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\pdf\\fonts\\expensesreportfontresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\reports\\pdf\\fonts\\fonthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\reports\\pdf\\fonts\\fonthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenerateExpensesReportExcelUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Excel\\IGenerateExpensesReportExcelUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Excel\\IGenerateExpensesReportExcelUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Excel\\IGenerateExpensesReportExcelUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Excel\\IGenerateExpensesReportExcelUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:20:08.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenerateExpensesReportExcelUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Excel\\GenerateExpensesReportExcelUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Excel\\GenerateExpensesReportExcelUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Excel\\GenerateExpensesReportExcelUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Excel\\GenerateExpensesReportExcelUseCase.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAgwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:18:26.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentTypeExtensions.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Extensions\\PaymentTypeExtensions.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Extensions\\PaymentTypeExtensions.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Extensions\\PaymentTypeExtensions.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Extensions\\PaymentTypeExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:17:32.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentType.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Enums\\PaymentType.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Enums\\PaymentType.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Enums\\PaymentType.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Enums\\PaymentType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T18:16:52.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ColorHelper.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Colors\\ColorHelper.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Colors\\ColorHelper.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Colors\\ColorHelper.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Colors\\ColorHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-26T14:55:00.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FontHelper.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\FontHelper.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\FontHelper.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\FontHelper.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\FontHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:37:45.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GenerateExpensesReportPdfUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\GenerateExpensesReportPdfUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\GenerateExpensesReportPdfUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\GenerateExpensesReportPdfUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\GenerateExpensesReportPdfUseCase.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvx4AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:31:40.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ExpensesReportFontResolver.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\ExpensesReportFontResolver.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\ExpensesReportFontResolver.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\ExpensesReportFontResolver.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Reports\\Pdf\\Fonts\\ExpensesReportFontResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:31:06.288Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
