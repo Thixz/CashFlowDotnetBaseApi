@@ -13,3 +13,14 @@ C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0
 C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\refint\CommonTestUtilities.dll
 C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.pdb
 C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\ref\CommonTestUtilities.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.sourcelink.json
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\Logo\kilua.jpg
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Application.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Domain.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Exception.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Application.pdb
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Domain.pdb
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Exception.pdb
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\fr\CashFlow.Exception.resources.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\pt-BR\CashFlow.Exception.resources.dll
