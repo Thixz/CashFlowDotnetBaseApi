@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CashFlow.Infrastructure", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Validators.Tests", "tests\Validators.Tests\Validators.Tests.csproj", "{C312A931-B674-4DEA-958D-2E5B5E088157}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{52D8159F-0DCB-4A7F-B32B-DA0393301B7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonTestUtilities", "tests\CommonTestUtilities\CommonTestUtilities.csproj", "{52D8159F-0DCB-4A7F-B32B-DA0393301B7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{F88FFA63-CBD0-4099-B371-F536521D3DD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{52D8159F-0DCB-4A7F-B32B-DA0393301B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52D8159F-0DCB-4A7F-B32B-DA0393301B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52D8159F-0DCB-4A7F-B32B-DA0393301B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88FFA63-CBD0-4099-B371-F536521D3DD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88FFA63-CBD0-4099-B371-F536521D3DD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88FFA63-CBD0-4099-B371-F536521D3DD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88FFA63-CBD0-4099-B371-F536521D3DD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{29770ED3-4CAB-4E1D-AB20-D1B112A8261D} = {67BA44E1-6B41-456F-AD00-749F3B7DEE62}
 		{C312A931-B674-4DEA-958D-2E5B5E088157} = {7052305B-C138-4994-B4A4-D89D18B2A4E8}
 		{52D8159F-0DCB-4A7F-B32B-DA0393301B7C} = {7052305B-C138-4994-B4A4-D89D18B2A4E8}
+		{F88FFA63-CBD0-4099-B371-F536521D3DD2} = {7052305B-C138-4994-B4A4-D89D18B2A4E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE1A9ADD-41D2-4B27-AB02-A31F0076DCC5}

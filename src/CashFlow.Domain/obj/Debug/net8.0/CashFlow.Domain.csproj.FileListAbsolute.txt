@@ -9,3 +9,9 @@ C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashF
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\refint\CashFlow.Domain.dll
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.pdb
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\ref\CashFlow.Domain.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\bin\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ResourceReportGenerationMessages.resources
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.Reports.ResourceReportGenerationMessages.pt-BR.resources
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.GenerateResource.cache
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.sourcelink.json
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
