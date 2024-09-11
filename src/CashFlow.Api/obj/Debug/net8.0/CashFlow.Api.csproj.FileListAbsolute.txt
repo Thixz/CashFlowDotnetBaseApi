@@ -141,3 +141,13 @@ C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\tr\Micro
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Test.json

@@ -18,4 +18,9 @@ internal class UsersRepository : IUsersRepository
     {
         return await _dbContext.Users.AsNoTracking().AnyAsync(user => user.Email == email);
     }
+
+    public async Task<User?> GetUserByEmail(string email)
+    {
+        return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(user => user.Email == email);
+    }
 }
