@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonTestUtilities", "test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases.Test", "tests\UseCases.Test\UseCases.Test.csproj", "{F88FFA63-CBD0-4099-B371-F536521D3DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.test", "tests\WebApi.test\WebApi.test.csproj", "{9BC74DC3-D28C-44B2-93B4-100996A694D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi.test", "tests\WebApi.test\WebApi.test.csproj", "{9BC74DC3-D28C-44B2-93B4-100996A694D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tutoriais", "tutoriais", "{7D71778D-C17A-439D-B1F0-39180FF0F841}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
