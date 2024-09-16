@@ -1,0 +1,64 @@
+Criando api com .NET e Entity Framework
+
+Iniciando o projeto no visual studio : 
+
+ - Abrir o visual studio e escolher a opção Continuar sem código
+    Criar uma nova solução em branco em Arquivo > Novo > Projeto > Solução em Branco
+
+ - Pastas src e tests dentro da solução (se atentar que as pastas não estão sendo criadas automático na pasta do projeto, sendo que deve ser criado novamente dentro da pasta do projeto)
+
+ - Criar um projeto nomedaApi.Api com formato ASP.NET Core web API dentro de src
+
+ - Ainda dentro de src criar os seguintes projetos no formato class library : 
+    Application,Communication,Domain,Exception,Infrastructure
+
+ Uma breve explicação das responsabilidades das camadas : 
+
+Application : É basicamente o local onde irá ficar nossas regras de negócio e rotinas envolvidas nesse processo. Use Cases ou services, auto mapper de requests para entidades,etc.
+ 
+Communication : É o nosso projeto de contratos. É onde definimos os contratos de Request, Response, enumeradores, etc.
+
+Exception: Como o nome diz, é a camada em que definimos as classes que tratam dos erros da aplicação e também dos arquivos de resource .resx onde conseguimos definir e centralizar as mensagens de erro de nossa aplicação.
+
+Domain: É o projeto que define os recursos que serão utilizados por nosso domínio e a comunicação entre a regra de negócio e o banco de dados. Aqui temos as entidades que serão enviadas para o banco e também as INTERFACES de repositório que serão implementadas em Infrastructure.
+
+Infrastructure: É o projeto que implementa as interfaces de repositório criadas em Domain, além de conter nossas migrations e o DbContext que criar as conexões das entidades com as tabelas no banco.
+
+
+
+ DEPENDÊNCIA ENTRE PROJETOS : 
+
+ - .Api vai ter acesso a todos projetos menos Domain
+ - .Application vai ter acesso a Communication, Domain e Exception.
+ - .Communication sem acesso
+ - .Domain sem acesso
+ - .Exception sem acesso
+ - .Infrastructure tem acesso a Domain
+
+
+
+
+
+TESTE DE UNIDADE :
+
+Criar um projeto CommonTestUtilities que vai conter uma classe para buildar as requests com a lib Bogus
+
+Na pasta tests criari um novo projeto do tipo xUnit Test Project.
+Neste novo projeto instalar a lib FluentAssertions.
+
+
+TESTES DE INTEGRAÇÃO :
+
+Na pasta de test criar um novo projeto do tipo  xUnit Test Project.
+
+Instalar fluentassertions
+
+Instalar Microsoft.Aspnetcore.Mvc.Testing
+
+Adicionar como referencia os projetos .Api ,CommonTestUtilities e .Infrastructure
+
+Instalar o Pacote Microsoft.EntityFrameworkCore.InMemory para criar o db in memory 
+
+ 
+
+

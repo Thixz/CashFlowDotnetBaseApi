@@ -16,25 +16,19 @@ internal class ExpensesRepository : IExpensesRepository
         await _dbContext.Expenses.AddAsync(expense);
     }
 
-    public async Task<bool> Delete(long id)
+    public async Task Delete(long id)
     {
-        var result = await _dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id);
-        if (result is null)
-        {
-            return false;
-        }
+        var result = await _dbContext.Expenses.FindAsync(id);
 
-        _dbContext.Expenses.Remove(result);
-
-        return true;
+        _dbContext.Expenses.Remove(result!);
     }
 
-    public async Task<List<Expense>> GetAll()
+    public async Task<List<Expense>> GetAll(User user)
     {
-        return await _dbContext.Expenses.AsNoTracking().ToListAsync(); // As no tracking evita que as entidades fiquem em cache que fica olhando se elas serão alteradas. Como aqui temos ctz que não iremos alterar na regra de negócio as informações podemos usar as no tracking.
+        return await _dbContext.Expenses.AsNoTracking().Where(expense => expense.UserId == user.Id).ToListAsync(); // As no tracking evita que as entidades fiquem em cache que fica olhando se elas serão alteradas. Como aqui temos ctz que não iremos alterar na regra de negócio as informações podemos usar as no tracking.
     }
 
-    public async Task<List<Expense>> GetByFilteringMonth(DateOnly date)
+    public async Task<List<Expense>> GetByFilteringMonth(User user, DateOnly date)
     {
         var startDate = new DateTime(date.Year, date.Month, day: 1).Date;
 
@@ -43,20 +37,20 @@ internal class ExpensesRepository : IExpensesRepository
 
         return await _dbContext.Expenses
             .AsNoTracking()
-            .Where(expense => expense.Date >= startDate && expense.Date <= endDate)
+            .Where(expense => expense.UserId == user.Id && expense.Date >= startDate && expense.Date <= endDate)
             .OrderByDescending(expense => expense.Date) // orderna por data maior para menor
             .ThenBy(expense => expense.Title) // E então por titulo caso haja dois gastos com mesma data
             .ToListAsync();
     }
 
-    public async Task<Expense?> GetById(long id)
+    public async Task<Expense?> GetById(User user, long id)
     {
-        return await _dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(expense => expense.Id == id);
+        return await _dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
-    public async Task<Expense?> GetByIdTracking(long id)
+    public async Task<Expense?> GetByIdTracking(User user, long id)
     {
-        return await _dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id);
+        return await _dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     public void Update(Expense expense)
