@@ -6,6 +6,7 @@ using CommonTestUtilities.Cryptography;
 using CommonTestUtilities.Mapper;
 using CommonTestUtilities.Repositories;
 using CommonTestUtilities.Requests;
+using CommonTestUtilities.Token;
 using FluentAssertions;
 
 namespace UseCases.Test.Users.Register;
@@ -59,8 +60,9 @@ public class RegisterUserUseCaseTest
         var unitOfWork = UnitOfWorkBuilder.Build();
         var userRepository = CreateUserRepository(email);
         var passwordEncripter = PasswordEncrypterBuild.Build();
+        var tokenGenerator = JwtTokenGeneratorBuilder.Build();
 
-        return new RegisterUserUseCase(mapper, passwordEncripter, userRepository, unitOfWork);
+        return new RegisterUserUseCase(mapper, passwordEncripter, userRepository, unitOfWork, tokenGenerator);
     }
 
     private IUsersRepository CreateUserRepository(string? email = null)
