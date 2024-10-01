@@ -8,7 +8,7 @@ public class ExpensesRepositoryBuilder
     private readonly Mock<IExpensesRepository> _repository;
     public ExpensesRepositoryBuilder()
     {
-           _repository = new Mock<IExpensesRepository>();
+        _repository = new Mock<IExpensesRepository>();
     }
 
     public ExpensesRepositoryBuilder GetAll(User user, List<Expense> expenses)
@@ -20,8 +20,15 @@ public class ExpensesRepositoryBuilder
 
     public ExpensesRepositoryBuilder GetById(User user, Expense? expense)
     {
-        if(expense is not null)
-        _repository.Setup(repository => repository.GetById(user,expense.Id)).ReturnsAsync(expense);
+        if (expense is not null)
+            _repository.Setup(repository => repository.GetById(user, expense.Id)).ReturnsAsync(expense);
+
+        return this;
+    }
+
+    public ExpensesRepositoryBuilder GetByFilteringMonth(User user, List<Expense> expenses)
+    {
+        _repository.Setup(repository => repository.GetByFilteringMonth(user,It.IsAny<DateOnly>())).ReturnsAsync(expenses);
 
         return this;
     }
