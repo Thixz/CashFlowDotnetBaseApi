@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj": {}
+    "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\Cashflow.Api\\CashFlow.Api.csproj": {}
   },
   "projects": {
-    "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj": {
+    "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\Cashflow.Api\\CashFlow.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+        "projectUniqueName": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\Cashflow.Api\\CashFlow.Api.csproj",
         "projectName": "CashFlow.Api",
-        "projectPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\CashFlow.Api.csproj",
+        "projectPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\Cashflow.Api\\CashFlow.Api.csproj",
         "packagesPath": "C:\\Users\\win\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\obj\\",
+        "outputPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\Cashflow.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\win\\AppData\\Roaming\\NuGet\\NuGet.Config",

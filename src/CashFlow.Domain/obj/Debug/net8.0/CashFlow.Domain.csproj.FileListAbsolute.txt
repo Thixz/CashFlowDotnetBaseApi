@@ -15,3 +15,4 @@ C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashF
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.csproj.GenerateResource.cache
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\CashFlow.Domain.sourcelink.json
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.dll
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Domain\obj\Debug\net8.0\pt-BR\CashFlow.Domain.resources.cs

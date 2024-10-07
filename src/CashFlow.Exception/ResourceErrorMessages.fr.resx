@@ -153,4 +153,7 @@
   <data name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
     <value>Fly flin flin in...</value>
   </data>
+  <data name="CURRENT_PASSWORD_DIFFERENT" xml:space="preserve">
+    <value>Fly flin flin in...</value>
+  </data>
 </root>

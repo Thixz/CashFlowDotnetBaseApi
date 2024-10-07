@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\update\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\update\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.infrastructure\\migrations\\20241007143716_tagsintoexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\20241007143716_tagsintoexpenses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\update\\updateuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\update\\updateuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.infrastructure\\migrations\\20240807200734_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\20240807200734_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73ED60BB-8166-4180-A0F9-DE121A7F7C47}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73ED60BB-8166-4180-A0F9-DE121A7F7C47}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\dataaccess\\cashflowdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\entities\\expense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|solutionrelative:src\\cashflow.infrastructure\\migrations\\databasemigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\enums\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\delete\\deleteuseraccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\delete\\deleteuseraccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29770ED3-4CAB-4E1D-AB20-D1B112A8261D}|src\\CashFlow.Infrastructure\\CashFlow.Infrastructure.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.infrastructure\\dataaccess\\repositories\\usersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +47,12 @@
       "RelativeMoniker": "D:0:0:{626CFC3E-22FD-4F6C-AA14-85317C27862C}|src\\CashFlow.Domain\\CashFlow.Domain.csproj|solutionrelative:src\\cashflow.domain\\repositories\\users\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\update\\iupdateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\update\\iupdateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\delete\\ideleteuseraccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\delete\\ideleteuseraccountusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.communication\\requests\\requestupdateuserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestupdateuserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.communication\\requests\\requestregisteruserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestregisteruserjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.communication\\requests\\requestinformationreportjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DAB3F7A-2EF3-4BCA-A776-27E68D5C19B4}|src\\CashFlow.Communication\\CashFlow.Communication.csproj|solutionrelative:src\\cashflow.communication\\requests\\requestinformationreportjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73ED60BB-8166-4180-A0F9-DE121A7F7C47}|src\\CashFlow.Api\\CashFlow.Api.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73ED60BB-8166-4180-A0F9-DE121A7F7C47}|src\\CashFlow.Api\\CashFlow.Api.csproj|solutionrelative:src\\cashflow.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F88FFA63-CBD0-4099-B371-F536521D3DD2}|tests\\UseCases.Test\\UseCases.Test.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\tests\\usecases.test\\users\\profile\\getuserprofileusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F88FFA63-CBD0-4099-B371-F536521D3DD2}|tests\\UseCases.Test\\UseCases.Test.csproj|solutionrelative:tests\\usecases.test\\users\\profile\\getuserprofileusecasetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|c:\\projetosrocketseat\\csharp\\cashflow\\src\\cashflow.application\\usecases\\users\\changepassword\\changepasswordusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5061630-5823-40CE-9E4F-F9C1A03537AE}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\users\\changepassword\\changepasswordusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +62,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsersRepository.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20240807200734_InitialMigration.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20240807200734_InitialMigration.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\20240807200734_InitialMigration.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20240807200734_InitialMigration.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\20240807200734_InitialMigration.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:24:39.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
-              "RelativeToolTip": "src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:24:26.253Z",
+              "WhenOpened": "2024-10-07T14:40:08.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UpdateUserUseCase.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserUseCase.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAvAAAAAAAAAA==",
+              "Title": "20241007143716_TagsIntoExpenses.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20241007143716_TagsIntoExpenses.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\20241007143716_TagsIntoExpenses.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\20241007143716_TagsIntoExpenses.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\20241007143716_TagsIntoExpenses.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:22:53.614Z",
+              "WhenOpened": "2024-10-07T14:37:24.606Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateUserValidator.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserValidator.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserValidator.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserValidator.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Update\\UpdateUserValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAALAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CashFlowDbContext.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\CashFlowDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:22:04.13Z",
+              "WhenOpened": "2024-10-07T14:31:39.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RequestUpdateUserJson.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestUpdateUserJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestUpdateUserJson.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestUpdateUserJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestUpdateUserJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:21:27.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RequestRegisterUserJson.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterUserJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestRegisterUserJson.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestRegisterUserJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestRegisterUserJson.cs",
+              "Title": "DatabaseMigration.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DatabaseMigration.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\Migrations\\DatabaseMigration.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\Migrations\\DatabaseMigration.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\Migrations\\DatabaseMigration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:21:18.291Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RequestInformationReportJson.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestInformationReportJson.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Communication\\Requests\\RequestInformationReportJson.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Communication\\Requests\\RequestInformationReportJson.cs",
-              "RelativeToolTip": "src\\CashFlow.Communication\\Requests\\RequestInformationReportJson.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:21:13.257Z",
+              "WhenOpened": "2024-10-07T14:31:33.003Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "IUpdateUserUseCase.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\IUpdateUserUseCase.cs",
-              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Update\\IUpdateUserUseCase.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Update\\IUpdateUserUseCase.cs",
-              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Update\\IUpdateUserUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Title": "Expense.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Entities\\Expense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T14:20:37.975Z",
+              "WhenOpened": "2024-10-07T14:28:03.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Entities\\Tag.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Entities\\Tag.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T14:25:48.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Enums\\Tag.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Enums\\Tag.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Enums\\Tag.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Enums\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T14:25:11.313Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "GetUserProfileUseCaseTest.cs",
-              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\tests\\UseCases.Test\\Users\\Profile\\GetUserProfileUseCaseTest.cs",
-              "RelativeDocumentMoniker": "tests\\UseCases.Test\\Users\\Profile\\GetUserProfileUseCaseTest.cs",
-              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\tests\\UseCases.Test\\Users\\Profile\\GetUserProfileUseCaseTest.cs",
-              "RelativeToolTip": "tests\\UseCases.Test\\Users\\Profile\\GetUserProfileUseCaseTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAoAAAAAAAAAA==",
+              "Title": "UsersRepository.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
+              "RelativeToolTip": "src\\CashFlow.Infrastructure\\DataAccess\\Repositories\\UsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:43:49.32Z"
+              "WhenOpened": "2024-10-04T14:43:17.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUsersRepository.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
+              "RelativeToolTip": "src\\CashFlow.Domain\\Repositories\\Users\\IUsersRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:42:58.417Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "DeleteUserAccountUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Delete\\DeleteUserAccountUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Delete\\DeleteUserAccountUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Delete\\DeleteUserAccountUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Delete\\DeleteUserAccountUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:42:27.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDeleteUserAccountUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Delete\\IDeleteUserAccountUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\Delete\\IDeleteUserAccountUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\Delete\\IDeleteUserAccountUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\Delete\\IDeleteUserAccountUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T14:41:59.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Api\\Controllers\\UserController.cs",
               "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "src\\CashFlow.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAmwEYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T14:37:17.615Z",
+              "WhenOpened": "2024-10-04T14:41:19.801Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChangePasswordUseCase.cs",
+              "DocumentMoniker": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\ChangePassword\\ChangePasswordUseCase.cs",
+              "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Users\\ChangePassword\\ChangePasswordUseCase.cs",
+              "ToolTip": "C:\\ProjetosRocketSeat\\CSharp\\CashFlow\\src\\CashFlow.Application\\UseCases\\Users\\ChangePassword\\ChangePasswordUseCase.cs",
+              "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Users\\ChangePassword\\ChangePasswordUseCase.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T14:32:57.288Z"
             }
           ]
         }
