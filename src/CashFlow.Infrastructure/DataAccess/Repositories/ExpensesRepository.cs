@@ -1,6 +1,7 @@
 ﻿using CashFlow.Domain.Entities;
 using CashFlow.Domain.Repositories.Expenses;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Query;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories;
 internal class ExpensesRepository : IExpensesRepository
@@ -25,7 +26,9 @@ internal class ExpensesRepository : IExpensesRepository
 
     public async Task<List<Expense>> GetAll(User user)
     {
-        return await _dbContext.Expenses.AsNoTracking().Where(expense => expense.UserId == user.Id).ToListAsync(); // As no tracking evita que as entidades fiquem em cache que fica olhando se elas serão alteradas. Como aqui temos ctz que não iremos alterar na regra de negócio as informações podemos usar as no tracking.
+        return await _dbContext.Expenses.AsNoTracking() // As no tracking evita que as entidades fiquem em cache que fica olhando se elas serão alteradas. Como aqui temos ctz que não iremos alterar na regra de negócio as informações podemos usar as no tracking.
+            .Where(expense => expense.UserId == user.Id)
+            .ToListAsync(); 
     }
 
     public async Task<List<Expense>> GetByFilteringMonth(User user, DateOnly date)
@@ -45,16 +48,25 @@ internal class ExpensesRepository : IExpensesRepository
 
     public async Task<Expense?> GetById(User user, long id)
     {
-        return await _dbContext.Expenses.AsNoTracking().FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
+        return await GetFullExpense()
+            .AsNoTracking()
+            .FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     public async Task<Expense?> GetByIdTracking(User user, long id)
     {
-        return await _dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
+        return await GetFullExpense()
+            .FirstOrDefaultAsync(expense => expense.Id == id && expense.UserId == user.Id);
     }
 
     public void Update(Expense expense)
     {
         _dbContext.Expenses.Update(expense);
+    }
+
+    private IIncludableQueryable<Expense, ICollection<Tag>> GetFullExpense()
+    {
+        return _dbContext.Expenses
+            .Include(expense => expense.Tags);
     }
 }

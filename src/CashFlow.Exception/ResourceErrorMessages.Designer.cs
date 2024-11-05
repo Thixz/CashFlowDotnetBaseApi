@@ -81,6 +81,17 @@ namespace CashFlow.Exception {
         }
 
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The amount must be greater than zero..
+        /// </summary>
+        public static string TAG_TYPE_NOT_SUPPORTED
+        {
+            get
+            {
+                return ResourceManager.GetString("TAG_TYPE_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a This e-mail is already been used..
         /// </summary>
         public static string EMAIL_ALREADY_REGISTERED {
