@@ -151,3 +151,4 @@ C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\Microsof
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Test.json
 C:\ProjetosRocketSeat\CSharp\CashFlow\src\Cashflow.Api\obj\Debug\net8.0\CashFlow.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\ProjetosRocketSeat\CSharp\CashFlow\src\CashFlow.Api\bin\Debug\net8.0\appsettings.Production.json

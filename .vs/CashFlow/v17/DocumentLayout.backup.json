@@ -75,8 +75,7 @@
               "RelativeToolTip": "tests\\WebApi.test\\CustomWebApplicationFactory.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwDIAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:06:29.647Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:06:29.647Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "tests\\CommonTestUtilities\\Entities\\ExpenseBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T18:03:50.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T18:03:50.682Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "tests\\CommonTestUtilities\\Requests\\RequestRegisterExpenseJsonBuilder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T17:57:21.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-25T17:57:21.686Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "src\\CashFlow.Application\\UseCases\\Expenses\\Update\\UpdateExpenseUseCase.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAqwCUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T14:45:00.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-24T14:45:00.024Z"
             },
             {
               "$type": "Document",

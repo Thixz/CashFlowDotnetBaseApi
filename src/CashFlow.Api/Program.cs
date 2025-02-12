@@ -96,7 +96,7 @@ app.MapControllers();
 
 if (builder.Configuration.IsTestEnvironment() is false)
 {
-    //await MigrateDatabase();
+    await MigrateDatabase();
 }
 
 app.Run();
