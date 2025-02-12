@@ -68,7 +68,29 @@ namespace CashFlow.Exception {
                 return ResourceManager.GetString("AMOUNT_GREATER_ZERO", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The amount must be greater than zero..
+        /// </summary>
+        public static string CURRENT_PASSWORD_DIFFERENT
+        {
+            get
+            {
+                return ResourceManager.GetString("CURRENT_PASSWORD_DIFFERENT", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a The amount must be greater than zero..
+        /// </summary>
+        public static string TAG_TYPE_NOT_SUPPORTED
+        {
+            get
+            {
+                return ResourceManager.GetString("TAG_TYPE_NOT_SUPPORTED", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a This e-mail is already been used..
         /// </summary>
@@ -93,6 +115,15 @@ namespace CashFlow.Exception {
         public static string EMAIL_INVALID {
             get {
                 return ResourceManager.GetString("EMAIL_INVALID", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Email or password invalid..
+        /// </summary>
+        public static string EMAIL_OR_PASSWORD_INVALID {
+            get {
+                return ResourceManager.GetString("EMAIL_OR_PASSWORD_INVALID", resourceCulture);
             }
         }
         

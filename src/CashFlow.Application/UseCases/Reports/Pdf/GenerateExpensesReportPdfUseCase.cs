@@ -4,6 +4,7 @@ using CashFlow.Application.UseCases.Reports.Pdf.Fonts;
 using CashFlow.Domain.Extensions;
 using CashFlow.Domain.Reports;
 using CashFlow.Domain.Repositories.Expenses;
+using CashFlow.Domain.Services.LoggedUser;
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
@@ -17,24 +18,28 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
     private const int HEIGH_ROW_EXPENSE_TABLE = 25;
 
     private IExpensesRepository _repository;
-    public GenerateExpensesReportPdfUseCase(IExpensesRepository repository)
+    private ILoggedUser _loggedUser;
+    public GenerateExpensesReportPdfUseCase(IExpensesRepository repository, ILoggedUser loggedUser)
     {
         _repository = repository;
+        _loggedUser = loggedUser;
 
         GlobalFontSettings.FontResolver = new ExpensesReportFontResolver();
     }
     public async Task<byte[]> Execute(DateOnly month)
     {
-        var expenses = await _repository.GetByFilteringMonth(month);
+        var loggedUser = await _loggedUser.Get();
+
+        var expenses = await _repository.GetByFilteringMonth(loggedUser, month);
         if (expenses.Count is 0)
         {
             return [];
         }
 
-        var document = CreateDocument(month);
+        var document = CreateDocument(loggedUser.Name, month);
         var page = CreatePage(document);
 
-        CreateHeaderWithProfilePhotoAndName(page);
+        CreateHeaderWithProfilePhotoAndName(loggedUser.Name, page);
 
         var totalAmount = expenses.Sum(expense => expense.Amount);
 
@@ -87,11 +92,11 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         return RenderDocument(document);
     }
 
-    private Document CreateDocument(DateOnly month)
+    private Document CreateDocument(string author, DateOnly month)
     {
         var document = new Document();
         document.Info.Title = $"{ResourceReportGenerationMessages.EXPENSES_FOR} {month:Y}";
-        document.Info.Author = "Thiken Costa";
+        document.Info.Author = author;
 
         var style = document.Styles["Normal"];
         style!.Font.Name = FontHelper.RALEWAY_REGULAR;
@@ -113,7 +118,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         return section;
     }
 
-    private void CreateHeaderWithProfilePhotoAndName(Section page)
+    private void CreateHeaderWithProfilePhotoAndName(string name, Section page)
     {
         // Adiciona cabeçalho com foto
         var table = page.AddTable();
@@ -127,7 +132,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
         row.Cells[0].AddImage(Path.Combine(directoryName, "Logo", "kilua.jpg"));
 
-        row.Cells[1].AddParagraph("Olá, bebeninho!");
+        row.Cells[1].AddParagraph($"Olá, {name}!");
         row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 16 };
         row.Cells[1].VerticalAlignment = MigraDoc.DocumentObjectModel.Tables.VerticalAlignment.Center;
     }

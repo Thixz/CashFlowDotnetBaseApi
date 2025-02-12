@@ -1,0 +1,49 @@
+Estrutura de Projetos 
+
+.Api -> É onde fica nossas controllers, além de outras pequenas configurações referentes às requisições.
+
+.Application -> É onde vai ficar nossas services (UseCases). Também definimos nossa injeção de dependência de UseCases.
+
+.Communication -> É onde vai ficar nossos contratos de Request e Response
+
+.Domain -> É onde vai ficar todas as informações que se referem ao domínio do banco de dados : Interfaces de reposiótirios e Entidades.
+
+.Infrastructure -> É onde Iremos de fato implementar as interfaces que foram definidas em Domain e também é o lugar onde as demais implementações para o banco de dados estão armazenadas (DbContext,Unit of Work,etc).
+
+
+
+Ok, mas, paizinho... Como devo iniciar a implementação de uma tabela do zero?
+
+1. Primeiro temos de criar nossos contratos que serão a base de nossa estrutura. Request, Response e Entidade. (Seguir o formato de PlantaRequest (Communication), PlantaResponse (Communication) e Planta (Domain) já criados). Atentar às annotations que são importantes! Não esquecer também de adicionar um novo DbSet na classe de DbContext (Infrastructure) para que possamos acessar a tabela no repositório implementado posteriormente.
+
+2. Depois disso devemos definir nosso contrato de Repositório(Domain)
+
+3. Depois de definido nosso contrato de repositório, podemos prosseguir para implementar o repositório em si em Infrastructure. Para isso basta criar uma classe de repositorio que : implementa a interface. Apertar ctrl + . no erro que vai dar e clickar em implementar interface (todos métodos serão implementandos com um throw de erro). Basta agora mudar o código de cada método. (Usar como base repositorio da planta por exemplo).
+
+4. Depois de implementados nossos repositórios não podemos esquecer de injetar a dependência (AddRepositories) do novo repositorio criado em DependencyInjectionExtension (Infrastructure).
+
+5. Depois de resolvidos a interface e nossa implementação de repositórios podemos prosseguir então para nosso UseCase/Service (Application). Primeiro vamos configurar o AutoMapper de nossos contratos em AutoMapping (Application) onde iremos adicionar o map da nossa request para a entidade (para quando formos enviar uma entidade para o banco) e também o map de nossa entidade para uma response (quando por exemplo o usuário requisitar uma entidade do banco).
+
+6. Depois disso Podemos criar nossa interface de UseCase e nossa implementação de UseCase em si. Também devemos desenvolver nosso validator que irá validar as propriedades vindas da request para checar coisas do tipo : Não pode ser nulo ou vazio, tamanho máximo de 10 caracteres e por ai vai...
+
+7. Depois de implementados nossa interface e classe de UseCase podemos adicionar (AddUseCases) as dependências em DependencyInjectionExtension(Application)
+
+8. Depois podemos prosseguir para nossa Controller dentro do projeto de .API. Na pasta controllers , botão direito, adicionar > Controlador > Navegar para Aba a direita nomeada Comum e escolher a opção Controlador API - Vazio (Empty API Controller).
+
+9. Implementar as rotas e testar :)
+
+
+
+
+OBS IMPORTANTES : Quando trabalhos com o Visual Studio e C# a IDE da Microsoft nos da alguns padrões que devemos seguir em nosso código. Embora essas padrões sejam diferentes de outras linguagens é importante seguirmos a risca esses padrões para termos uma API limpa, concisa, bem estrutura e sem warnings.
+  
+ Exemplos: 
+ - Métodos SEMPRE iniciar com letra maiúscula (public void MeuMetodo(){})
+ - Classes SEMPRE iniciam com letra maiúscula (public class MinhaClasse{})
+ - Propriedades dentro de classes SEMPRE iniciam com letra maiúscula (public string Código { get; set; }) *Embora no Swagger vá aparecer com letra minúscula e se for enviado com minúsculo não tem problema, a api vai entender, porém no código esse padrão DEVE ser seguido.
+ - Geralmente quando criamos strings não nulas e não definimos nenhum valor padrão o compilador vai dar warning. Basta adicionarmos  
+      = string.Empty; dessa forma a string será sempre iniciada como vazia e posteriormente poderá ser validada normalmente em nossos UseCases.
+
+
+
+

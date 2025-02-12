@@ -1346,17 +1346,26 @@
           "PDFsharp-MigraDoc": "6.1.1"
         },
         "runtime": {
-          "CashFlow.Application.dll": {}
+          "CashFlow.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CashFlow.Communication/1.0.0": {
         "runtime": {
-          "CashFlow.Communication.dll": {}
+          "CashFlow.Communication.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "CashFlow.Domain/1.0.0": {
         "runtime": {
-          "CashFlow.Domain.dll": {}
+          "CashFlow.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "resources": {
           "pt-BR/CashFlow.Domain.resources.dll": {
@@ -1366,7 +1375,10 @@
       },
       "CashFlow.Exception/1.0.0": {
         "runtime": {
-          "CashFlow.Exception.dll": {}
+          "CashFlow.Exception.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         },
         "resources": {
           "fr/CashFlow.Exception.resources.dll": {
@@ -1386,7 +1398,10 @@
           "Moq": "4.20.70"
         },
         "runtime": {
-          "CommonTestUtilities.dll": {}
+          "CommonTestUtilities.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

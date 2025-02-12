@@ -150,4 +150,13 @@
   <data name="UNKNOWN_ERROR" xml:space="preserve">
     <value>Erro desconhecido.</value>
   </data>
+  <data name="EMAIL_OR_PASSWORD_INVALID" xml:space="preserve">
+    <value>E-mail ou senha inválidos.</value>
+  </data>
+  <data name="CURRENT_PASSWORD_DIFFERENT" xml:space="preserve">
+    <value>A senha informada é diferente da atual.</value>
+  </data>
+  <data name="TAG_TYPE_NOT_SUPPORTED" xml:space="preserve">
+    <value>O tipo da tag não é suportado.</value>
+  </data>
 </root>
